@@ -1,0 +1,151 @@
+/*---------MEDIA: Tablet--------*/
+@media (min-width: 481px) and (max-width: 1023px){
+
+    li a {
+        font-size: 75%;
+    }
+    body{
+        width: 98.8%;
+    }
+    main{
+        font-size:85%;
+        height: 100%;
+    }
+    footer{
+        font-size:85%;
+    }
+    
+    /*main index TABLET*/
+    .flexArticleIndex{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 3% 0;
+        height:60%;
+        .divMainIndex{
+            flex-direction: row;
+            justify-content: center;
+            width: 85%;
+            height:150%;
+            img{
+                width:35%;
+                padding:1.5%;
+                }
+        }
+    }
+    .flexArticleTextoIndex{
+        flex-direction: row;
+        justify-content: center;
+        width: 80%;
+        p{
+            padding:1.5%;
+            width:40%;
+            text-align: left;
+        }
+    }
+    
+    /*main nosotros TABLET*/
+    .flexSectionNosotros2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:2% 0;
+        width:100%;
+        .divVideoNosotros{
+            justify-content:center;
+            padding-right: 0;
+            padding: 2% 0;
+            video{
+                padding-right:0;
+                padding:0 1.5%;
+            }
+        }
+    }
+    
+    .divTextoNosotros{
+        width: 70%;
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+/*------MEDIA: Smartphone------*/
+
+@media (max-width: 480px){
+    
+    li a {
+        font-size: 75%;
+    }
+    body{
+        width: 98.8%;
+    }
+    main{
+        font-size:70%;
+    }
+    footer{
+        font-size:70%;
+    }
+    
+
+    /*main index SMARTPHONE*/
+    .sectionMainIndex p{
+        text-align: justify;
+    }
+    .flexArticleIndex{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 3% 0;
+        height:60%;
+        .divMainIndex{
+            flex-direction: row;
+            justify-content: center;
+            width: 85%;
+            height:150%;
+            img{
+                width:40%;
+                padding:2%;
+                }
+        }
+    }
+    .flexArticleTextoIndex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        p{
+            padding:2%;
+            width:80%;
+            text-align: justify;
+        }
+    }
+
+    /*main nosotros SMARTPHONE*/
+    .flexSectionNosotros p{
+        text-align: justify;
+    }
+    .flexSectionNosotros2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:2% 0;
+        width:100%;
+        .divVideoNosotros{
+            justify-content:center;
+            padding-right: 0;
+            padding: 2% 0;
+            video{
+                padding-right:0;
+                padding:0 1.5%;
+            }
+        }
+    }
+    
+    .divTextoNosotros{
+        width: 70%;
+        p{
+            text-align: justify;
+        }
+    }
+}
