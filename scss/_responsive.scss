@@ -61,13 +61,31 @@
             }
         }
     }
-    
     .divTextoNosotros{
         width: 70%;
         p{
             text-align: justify;
         }
     }
+
+    /*Contacto TABLET*/
+    .flexMainContacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        iframe{
+            width: 100%;
+        }
+        .placeholderPosition{
+            transform: translateX(3.9rem);
+        }
+        .placeholderPosition2{
+            transform: translateX(4.3rem);
+        }
+    }
+    .flexMainContacto2{
+        padding-top:3%;
+    }    
 }
 
 /*------MEDIA: Smartphone------*/
@@ -121,7 +139,7 @@
         }
     }
 
-    /*main nosotros SMARTPHONE*/
+    /*Nosotros SMARTPHONE*/
     .flexSectionNosotros p{
         text-align: justify;
     }
@@ -141,11 +159,29 @@
             }
         }
     }
-    
     .divTextoNosotros{
         width: 70%;
         p{
             text-align: justify;
         }
+    }
+
+/*Contacto SMARTPHONE*/
+    .flexMainContacto{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        iframe{
+            width: 100%;
+        }
+        .placeholderPosition{
+            transform: translateX(3.4rem);
+        }
+        .placeholderPosition2{
+            transform: translateX(3.6rem);
+        }
+    }
+    .flexMainContacto2{
+        padding-top:4%;
     }
 }
