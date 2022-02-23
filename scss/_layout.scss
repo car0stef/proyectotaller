@@ -1,3 +1,6 @@
+/*-----------------------
+LAYOUT
+----------------------*/
 #gridHeader{
     grid-area: header;
 }
@@ -18,11 +21,8 @@
 }
 
 /*Header general*/
-header{
-    background-color: rgb( 33 37 41);
-    img{
-        width:80vw;
-    }
+header img{
+    width:80vw;
 }
 .colorMenu{
     color: rgba(255, 255, 255, 0.75);
@@ -33,9 +33,4 @@ main{
     background:linear-gradient(180deg, rgba(33,37,41,1) 0%, rgba(33,37,41,0.24411762996214115) 10%, rgba(255,255,255,1) 100%);
     height: 100%;
     padding-top: 3%;
-}
-
-/* Footer general*/
-.colorFooter{
-    color:#0d6efd;
 }

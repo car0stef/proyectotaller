@@ -1,0 +1,31 @@
+/*========MAPA========*/
+$colorGeneral:(
+    azul: #0d6efd,
+    negro:#212529,
+);
+
+.fondoHeader{
+    background-color: map-get($map: $colorGeneral, $key: negro);
+}
+.colorFooter{
+    color: map-get($map: $colorGeneral, $key: azul);
+}
+
+/*=======EXTEND=======*/
+.imgBorde{
+    border: 3px #0d6efd double;
+}
+.imgBordeBig{
+    @extend .imgBorde;
+    padding:0.5%;
+    background-color: #343a40;
+}
+
+/*=======MIXIN=======*/
+@mixin h1 ($tamanio, $margen) {
+    font-size:$tamanio;
+    padding-left: $margen;
+}
+.title{
+    @include h1(180%, 10%)
+}
