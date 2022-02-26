@@ -4,9 +4,6 @@
     li a {
         font-size: 75%;
     }
-    body{
-        width: 98.8%;
-    }
     main{
         font-size:85%;
         height: 100%;
@@ -125,24 +122,30 @@
 /*------MEDIA: Smartphone------*/
 
 @media (max-width: 480px){
-    
+    header img{
+        width:95vw;
+    }
     li a {
         font-size: 75%;
-    }
-    body{
-        width: 98.8%;
     }
     main{
         font-size:70%;
     }
     footer{
         font-size:70%;
+        height: 85%;
     }
     
 
     /*main index SMARTPHONE*/
-    .sectionMainIndex p{
-        text-align: justify;
+    .sectionMainIndex{
+        p{
+            text-align: justify;
+            padding: 0 10%;
+        }
+        img{
+            width: 70%;
+        }
     }
     .flexArticleIndex{
         flex-direction: column;

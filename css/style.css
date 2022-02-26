@@ -11487,10 +11487,6 @@ Contacto
     font-size: 75%;
   }
 
-  body {
-    width: 98.8%;
-  }
-
   main {
     font-size: 85%;
     height: 100%;
@@ -11607,12 +11603,12 @@ Contacto
 }
 /*------MEDIA: Smartphone------*/
 @media (max-width: 480px) {
-  li a {
-    font-size: 75%;
+  header img {
+    width: 95vw;
   }
 
-  body {
-    width: 98.8%;
+  li a {
+    font-size: 75%;
   }
 
   main {
@@ -11621,11 +11617,16 @@ Contacto
 
   footer {
     font-size: 70%;
+    height: 85%;
   }
 
   /*main index SMARTPHONE*/
   .sectionMainIndex p {
     text-align: justify;
+    padding: 0 10%;
+  }
+  .sectionMainIndex img {
+    width: 70%;
   }
 
   .flexArticleIndex {
