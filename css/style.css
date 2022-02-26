@@ -11603,10 +11603,6 @@ Contacto
 }
 /*------MEDIA: Smartphone------*/
 @media (max-width: 480px) {
-  header img {
-    width: 95vw;
-  }
-
   li a {
     font-size: 75%;
   }
@@ -11617,7 +11613,7 @@ Contacto
 
   footer {
     font-size: 70%;
-    height: 85%;
+    height: 75%;
   }
 
   /*main index SMARTPHONE*/
