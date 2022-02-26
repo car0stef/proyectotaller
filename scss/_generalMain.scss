@@ -33,7 +33,7 @@ Index
     img{
         width:70%;
         height: auto;
-        margin: 1.5% 0;
+        margin: 1.5% 1%;
     }
 }
 .flexArticleTextoIndex{
@@ -121,7 +121,7 @@ Chapa y Pintura
         justify-content: center;
         align-items: center;
         padding: 1% 3%;
-        width: 30%;
+        width: 40%;
         a{
             display: flex;
             justify-content:center;
@@ -176,6 +176,9 @@ lustre
 /*----------------
 Trabajos
 ----------------*/
+.colorTrabajos{
+    color: $gray-500;
+}
 .sectionTrabajos{
     display:flex;
     flex-direction: column;
@@ -189,8 +192,8 @@ Trabajos
         align-items: center;
         width: 100%;
         img{
-            width: 20%;
-            margin:0 2%;
+            width: 35%;
+            margin: 2%;
         }
     }
 }
@@ -206,9 +209,11 @@ Trabajos
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 100%;
         iframe{
-            margin:2% 4%;
+            margin:2%;
+            width: 35vw;
+            height: 60vh;
         }
     }
 }
@@ -244,7 +249,4 @@ Contacto
     .placeholderPosition2{
         transform: translateX(5rem);
     }
-}
-.fondoMainContacto{
-    
 }

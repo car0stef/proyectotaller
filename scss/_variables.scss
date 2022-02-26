@@ -29,3 +29,9 @@ $colorGeneral:(
 .title{
     @include h1(180%, 10%)
 }
+.title2{
+    @include h1(150%, 10%)
+}
+.title3{
+    @include h1(150%, 0)
+}

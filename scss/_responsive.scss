@@ -68,6 +68,40 @@
         }
     }
 
+    /*main desabollado TABLET*/
+    .flexMainDesabollado{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        img{
+            width: 50%;
+            margin: 4%;
+        }
+        p{
+            text-align: left;
+            margin:0 25% 3% 25%;
+        }
+    }
+
+    /*Trabajos TABLET*/
+    .colorTrabajos{
+        color: $gray-400;
+    }
+    .sectionTrabajos{
+        .divTrabajos{
+            img{
+                width: 30%;
+                margin: 2%;
+            }
+        }
+    }
+    .flexSectionIframe{
+        div{
+            flex-direction: column;
+        }
+    }
+
     /*Contacto TABLET*/
     .flexMainContacto{
         flex-direction: column;
@@ -139,7 +173,7 @@
         }
     }
 
-    /*Nosotros SMARTPHONE*/
+    /*main nosotros SMARTPHONE*/
     .flexSectionNosotros p{
         text-align: justify;
     }
@@ -166,7 +200,72 @@
         }
     }
 
-/*Contacto SMARTPHONE*/
+/*main chapaypintura SMARTPHONE*/
+    .flexMainChapa{
+        p{
+            text-align: justify;
+        }
+        span{
+            font-weight: bold;
+        }
+    }
+
+/*main desabollado SMARTPHONE*/
+    .flexMainDesabollado{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        img{
+            width: 65%;
+            margin: 4%;
+        }
+        p{
+            text-align: justify;
+            margin:0 18% 3% 18%;
+        }
+    }
+
+/*main lustre SMARTPHONE*/
+    .flexMainLustre{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1% 5% 4% 5%;
+        img{
+            width:40%;
+            margin:1%;
+        }
+    }
+    .flexMainLustre2{
+        p{
+            text-align: justify;
+            padding:1% 10%;
+        }
+    }
+
+/* main trabajos SMARTPHONE*/
+    .colorTrabajos{
+        color: $gray-200;
+    }
+    .sectionTrabajos{
+        .divTrabajos{
+            flex-direction: column;
+            img{
+                width: 60%;
+            }
+        }
+    }
+    .flexSectionIframe{
+        div{
+            flex-direction: column;
+            iframe{
+                margin:1%;
+                width: 58vw;
+            }
+        }
+    }
+
+/*main contacto SMARTPHONE*/
     .flexMainContacto{
         flex-direction: column;
         align-items: center;
