@@ -11608,11 +11608,11 @@ Contacto
   }
 
   main {
-    font-size: 70%;
+    font-size: 80%;
   }
 
   footer {
-    font-size: 70%;
+    font-size: 80%;
     height: 75%;
   }
 
@@ -11754,10 +11754,10 @@ Contacto
     width: 100%;
   }
   .flexMainContacto .placeholderPosition {
-    transform: translateX(3.4rem);
+    transform: translateX(3.7rem);
   }
   .flexMainContacto .placeholderPosition2 {
-    transform: translateX(3.6rem);
+    transform: translateX(4.3rem);
   }
 
   .flexMainContacto2 {
