@@ -11,7 +11,10 @@
     footer{
         font-size:85%;
     }
-    
+    /*==================================================
+    El header y el footer tienen responsive de Bootstrap
+    ===================================================*/
+
     /*main index TABLET*/
     .flexArticleIndex{
         flex-direction: column;
@@ -81,7 +84,7 @@
         }
     }
 
-    /*Trabajos TABLET*/
+    /*main trabajos TABLET*/
     .colorTrabajos{
         color: $gray-400;
     }
@@ -99,7 +102,7 @@
         }
     }
 
-    /*Contacto TABLET*/
+    /*main contacto TABLET*/
     .flexMainContacto{
         flex-direction: column;
         align-items: center;

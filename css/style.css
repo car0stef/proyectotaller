@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /*la fuente proviene de Bootstrap (VAR) */
 }
 
 body {
@@ -17,10 +18,6 @@ h1, .h1 {
 
 h2, .h2 {
   padding-left: 8%;
-}
-
-.fuenteGrande {
-  font-size: 130%;
 }
 
 /*!
@@ -11166,7 +11163,7 @@ LAYOUT
 
 /*Header general*/
 header img {
-  width: 80vw;
+  width: 95vw;
 }
 
 .colorMenu {
@@ -11189,6 +11186,9 @@ Index
   align-items: center;
   justify-content: center;
   padding-top: 1%;
+}
+.sectionMainIndex .fuenteGrande {
+  font-size: 130%;
 }
 .sectionMainIndex img {
   margin: 0 3% 1% 3%;
@@ -11496,6 +11496,9 @@ Contacto
     font-size: 85%;
   }
 
+  /*==================================================
+  El header y el footer tienen responsive de Bootstrap
+  ===================================================*/
   /*main index TABLET*/
   .flexArticleIndex {
     flex-direction: column;
@@ -11567,7 +11570,7 @@ Contacto
     margin: 0 25% 3% 25%;
   }
 
-  /*Trabajos TABLET*/
+  /*main trabajos TABLET*/
   .colorTrabajos {
     color: #ced4da;
   }
@@ -11581,7 +11584,7 @@ Contacto
     flex-direction: column;
   }
 
-  /*Contacto TABLET*/
+  /*main contacto TABLET*/
   .flexMainContacto {
     flex-direction: column;
     align-items: center;

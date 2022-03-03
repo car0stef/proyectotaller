@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    /*la fuente proviene de Bootstrap (VAR) */
 }
 body {
     width: 100%;
@@ -13,7 +14,4 @@ h1{
 }
 h2{
     padding-left: 8%;
-}
-.fuenteGrande {
-    font-size: 130%;
 }
