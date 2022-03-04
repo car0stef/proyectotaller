@@ -16,6 +16,15 @@
     ===================================================*/
 
     /*main index TABLET*/
+    .sectionMainIndex{
+        h1{
+            margin: 1% 0;
+            padding-right: 5%;
+            text-align: left;
+            font-size: 100%;
+            font-weight: 350;
+        }
+    }
     .flexArticleIndex{
         flex-direction: column;
         justify-content:center;
@@ -140,6 +149,14 @@
 
     /*main index SMARTPHONE*/
     .sectionMainIndex{
+        h1{
+            padding:2% 15%;
+            text-align: justify;
+            font-size: 100%;
+            font-weight: 400;
+        }
+    }
+    .sectionMainIndex{
         p{
             text-align: justify;
             padding: 0 10%;
@@ -178,9 +195,16 @@
     }
 
     /*main nosotros SMARTPHONE*/
-    .flexSectionNosotros p{
-        text-align: justify;
+    .flexSectionNosotros{
+        h1{
+            text-align: justify;
+            padding-top: 3%;
+        }
+        span{
+            font-size:130%;
+        }
     }
+    
     .flexSectionNosotros2{
         flex-direction: column;
         justify-content: center;

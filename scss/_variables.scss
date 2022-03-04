@@ -35,3 +35,6 @@ $colorGeneral:(
 .title3{
     @include h1(150%, 0)
 }
+.titleIndex{
+    @include h1 (100%, 5%)
+}
