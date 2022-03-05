@@ -11409,9 +11409,8 @@ Trabajos
   width: 100%;
 }
 .flexSectionIframe button {
-  width: 2.5%;
-  height: 1%;
   border-radius: 3px;
+  width: 6%;
 }
 .flexSectionIframe button a {
   text-decoration: none;
@@ -11615,6 +11614,9 @@ Contacto
     margin: 2%;
   }
 
+  .flexSectionIframe button {
+    width: 10%;
+  }
   .flexSectionIframe div {
     flex-direction: column;
   }
@@ -11788,6 +11790,9 @@ Contacto
     width: 60%;
   }
 
+  .flexSectionIframe button {
+    width: 12%;
+  }
   .flexSectionIframe div {
     flex-direction: column;
   }
