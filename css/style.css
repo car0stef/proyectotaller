@@ -11408,6 +11408,10 @@ Trabajos
   align-items: center;
   width: 100%;
 }
+.flexSectionIframe button a {
+  text-decoration: none;
+  margin: 0.5% 0.2%;
+}
 .flexSectionIframe div {
   display: flex;
   flex-direction: row;
