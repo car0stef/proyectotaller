@@ -11408,9 +11408,13 @@ Trabajos
   align-items: center;
   width: 100%;
 }
+.flexSectionIframe button {
+  width: 2.5%;
+  height: 1%;
+  border-radius: 3px;
+}
 .flexSectionIframe button a {
   text-decoration: none;
-  margin: 0.5% 0.2%;
 }
 .flexSectionIframe div {
   display: flex;
