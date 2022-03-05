@@ -11442,6 +11442,10 @@ Contacto
   justify-content: center;
   margin-top: 2%;
 }
+.flexMainContacto2 h1, .flexMainContacto2 .h1 {
+  padding-left: 0;
+  font-size: 200%;
+}
 .flexMainContacto2 form {
   width: 100%;
 }
@@ -11626,6 +11630,9 @@ Contacto
   .flexMainContacto2 {
     padding-top: 3%;
   }
+  .flexMainContacto2 h1, .flexMainContacto2 .h1 {
+    font-size: 170%;
+  }
 }
 /*------MEDIA: Smartphone------*/
 @media (max-width: 480px) {
@@ -11799,6 +11806,9 @@ Contacto
 
   .flexMainContacto2 {
     padding-top: 4%;
+  }
+  .flexMainContacto2 h1, .flexMainContacto2 .h1 {
+    font-size: 150%;
   }
 }
 
